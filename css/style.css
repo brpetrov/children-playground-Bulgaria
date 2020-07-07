@@ -1,0 +1,546 @@
+
+body {
+  background: #00b4ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+ width: 70%;
+}
+
+.navbar-collapse{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.card {
+  border-radius: 40% 60% 40% 60%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.card-img-top {
+  padding-top: 0.5rem;
+}
+
+.card img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Pangolin", cursive;
+}
+
+.card-title {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.card:hover img {
+  transform: scale(1.3);
+  opacity: 0.9;
+}
+
+.party-img{
+  width: 25%;
+}
+
+.carousel {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  border-radius: 5rem;
+  border: 0.5rem solid white;
+}
+
+
+.carousel-inner {
+  border-radius: 4rem;
+  height: 600px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+}
+
+.hero {
+  margin: 0 auto 0 auto;
+  text-align: center;
+  width: 12%;
+}
+.hero img {
+  width: 100%;
+}
+
+.welcome{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10rem;
+  padding: 1rem 2rem;
+}
+
+.heading{
+  font-family: 'Pangolin', cursive;
+}
+
+.main-btn {
+  margin-top: 1rem;
+  font-family:'Pangolin', cursive; 
+  padding: 1rem 2rem;
+  border-radius: 15rem;
+  border: none;
+  width: 30%;
+  font-size: 2rem;
+}
+
+
+.gif-left img{
+  width: 20%;
+  position: absolute;
+  top:-5rem;
+  left: 0;
+}
+.gif-right img{
+  width: 20%;
+  position: absolute;
+  top:-5rem;
+  right: 1rem;
+}
+
+
+.footer{
+  font-family:'Pangolin', cursive; 
+  padding: 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 100px;
+  border-radius: 50rem 50rem 0 0 ;
+}
+
+a:hover{
+  text-decoration: inherit;
+  color: orange;
+}
+
+.footer-logo{
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+
+/* ZA NAS */
+
+.dance-container {
+  margin-top: 3rem;
+}
+.dance-img{
+  width: 30%;
+}
+
+.text-container{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10rem;
+  font-size: 1.1rem;
+}
+
+.za-nas-heading{
+  color: yellow;
+}
+
+
+/* ROJDEN DEN */
+
+.table {
+  margin: 2rem auto;
+}
+
+.cake-img{
+  width: 30%;
+}
+
+/* MOBILE */
+
+
+@media only screen and (max-width: 1000px){
+  
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0 0 30px 30px;
+  }
+  .carousel{
+    width:100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+    border-radius: 0;
+  }
+
+  .carousel-item{
+    height: auto;
+} 
+.carousel-item img{
+    height: 300px;
+}
+  .carousel-inner {
+    height: auto;
+    border-radius: 2rem;
+  }
+
+  .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+  opacity: 1;
+}
+
+  .hero {
+    width: 25%;
+  }
+
+  .main-btn {
+    
+    width: 60%;
+    font-size: 1rem;
+  }
+  
+.gif-left img{
+  width: 25%;
+  position: absolute;
+  top:-6rem;
+  left: 1rem;
+}
+
+.gif-right img{
+  width: 25%;
+  position: absolute;
+  top:-5rem;
+  right: 1rem;
+}
+
+.footer-logo{
+  display: none;
+}
+
+/* ZA NAS */
+
+.dance2, .dance3 {
+  display: none;
+}
+
+}
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+
+@-moz-keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+
+@keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+  100% {
+    margin-top: -100%;
+  }
+}
+
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+
+@-moz-keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+  -webkit-animation: animateBubble 25s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 25s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 25s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: -5%;
+  top: 5%;
+
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.x2 {
+  -webkit-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+
+  left: 5%;
+  top: 80%;
+
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+}
+
+.x3 {
+  -webkit-animation: animateBubble 28s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 28s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 28s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 10%;
+  top: 40%;
+
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  transform: scale(0.7);
+}
+
+.x4 {
+  -webkit-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+
+  left: 20%;
+  top: 0;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+.x5 {
+  -webkit-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+
+  left: 30%;
+  top: 50%;
+
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.x6 {
+  -webkit-animation: animateBubble 21s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 21s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 21s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 50%;
+  top: 0;
+
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.x7 {
+  -webkit-animation: animateBubble 20s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 20s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 20s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 65%;
+  top: 70%;
+
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.4);
+  transform: scale(0.4);
+}
+
+.x8 {
+  -webkit-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+
+  left: 80%;
+  top: 10%;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+.x9 {
+  -webkit-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+
+  left: 90%;
+  top: 50%;
+
+  -webkit-transform: scale(0.6);
+  -moz-transform: scale(0.6);
+  transform: scale(0.6);
+}
+
+.x10 {
+  -webkit-animation: animateBubble 26s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 26s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 26s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+
+  left: 80%;
+  top: 80%;
+
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+
+.bubble:after {
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 70%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(255, 255, 255, 0.5)),
+    color-stop(70%, rgba(255, 255, 255, 0))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 70%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 70%
+  ); /* Opera 12+ */
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 70%
+  ); /* IE10+ */
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 70%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+
+  content: "";
+  height: 180px;
+  left: 10px;
+  position: absolute;
+  width: 180px;
+}
