@@ -166,6 +166,9 @@ a:hover{
   color: yellow;
 }
 
+/* IGRI */
+
+
 
 /* ROJDEN DEN */
 
@@ -215,6 +218,22 @@ a:hover{
   background: #3B5998;
   color: white;
   border-radius: 50%;
+}
+
+
+/* KONTAKTI */
+
+.map{
+  border-radius: 2rem;
+  width: 95%;
+  height: 400px;
+}
+
+.btn-facebook {
+  background: #4267b2;
+  width: 50%;
+  margin: 1rem;
+  font-size: 1.5rem;
 }
 
 /* MOBILE */
@@ -310,6 +329,15 @@ a:hover{
 
 .icon-bar {
 display: none;
+}
+
+/* KONTAKTI */
+
+.btn-facebook {
+  background: #4267b2;
+  width: 80%;
+  margin: 1.5 1rem;
+  font-size: 1.1rem;
 }
 
 }
