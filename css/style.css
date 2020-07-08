@@ -340,6 +340,10 @@ display: none;
   font-size: 1.1rem;
 }
 
+.party-mobile{
+  display: none;
+}
+
 }
 
 #background-wrap {
