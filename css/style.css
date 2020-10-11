@@ -56,24 +56,32 @@ a {
   width: 25%;
 }
 
-.carousel {
+.carousel-main {
   width: 80%;
   margin: 0 auto 0 auto;
   border-radius: 5rem;
   border: 0.5rem solid white;
 }
 
+.carousel-main .carousel-inner {
+  width: 100%;
+  height: 600px;
+  border-radius: 4rem;
+}
+
 .carousel-gallery {
+  margin: 0 auto 0 auto;
   border: none;
   width: 90%;
   border-radius: 0;
 }
 
-.carousel-inner {
+.carousel-gallery .carousel-inner {
   margin: 0 auto !important;
+  max-height: 120vh !important;
   width: 90% !important;
-  border-radius: 4rem;
-  max-height: 120vh;
+  border-radius: 5rem;
+  border: 0.5rem solid white;
 }
 
 .carousel-control-next-icon,
