@@ -588,13 +588,14 @@ a:hover {
   position: absolute;
   width: 180px;
 }
-@media (max-width: 1250px) {
+
+@media (min-width: 990px) {
   .navbar-expand-lg {
     flex-flow: column;
   }
 }
 
-@media (max-width: 990px) {
+@media (min-width: 1251px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
   }
